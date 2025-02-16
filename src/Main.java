@@ -1,6 +1,12 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+/**
+ * The Main class demonstrates the Observer pattern in a stock market scenario.
+ */
 public class Main {
+    /**
+     * The main method is the entry point of the application.
+     * It creates a stock and investors, registers the investors with the stock,
+     * and simulates price changes.
+     */
     public static void main(String[] args) {
         // create a stock
         Stock stock = new Stock("TechLanka", 23.2F);
