@@ -1,7 +1,7 @@
 public class Investor implements Observer {
-    private String name;
-    private double buyPrice;
-    private double sellPrice;
+    private final String name;
+    private final double buyPrice;
+    private final double sellPrice;
 
     /*
     * consturctor to intialize values
@@ -11,6 +11,8 @@ public class Investor implements Observer {
         this.buyPrice = buyPrice;
         this.sellPrice = sellPrice;
     }
+
+
 
     @Override
     public void update(double stockPrice) {
